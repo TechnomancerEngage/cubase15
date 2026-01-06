@@ -113,9 +113,3 @@ This research operates exclusively within Steinberg's official boundaries:
 - Valid Steinberg Cubase Pro license (version 13 or 14)  
 - Steinberg VST SDK (free developer registration required)  
 - Basic Lua scripting knowledge  
-
-#### Installation
-```bash
-git clone https://github.com/yourusername/cubase-intelligence.git
-cd cubase-intelligence
-# Copy scripts to your Cubase Script folder
