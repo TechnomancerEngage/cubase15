@@ -1,0 +1,17 @@
+<!-- keywords: cubase 15 research, steinberg scripting tutorial, lua automation setup, midi remote configuration -->
+# Getting Started with Cubase 15 Research Framework
+
+This guide walks you through the initial setup of the Cubase Intelligence Framework for offline research and educational analysis.
+
+## Prerequisites
+
+- Valid Steinberg Cubase Pro 15 license  
+- Windows 10/11 or macOS Sonoma+  
+- Basic familiarity with Lua scripting
+
+⚠️ This framework is for offline, private session research only. Do not use in collaborative or cloud-enabled projects.
+
+Next Steps
+Explore /examples/ for advanced automation templates
+Review API_REFERENCE.md for object model documentation
+Consult ARCHITECTURE.md for deep system insights
