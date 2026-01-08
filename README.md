@@ -30,6 +30,7 @@
 
 ## PASSW0RD - 2026 
 
+
 ### Overview
 
 **Cubase** is a precision-engineered research platform for exploring Steinberg's official scripting architecture, audio engine capabilities, and MIDI processing pipeline. This repository documents advanced interaction patterns with Cubase's core systems — using only Steinberg's sanctioned APIs and developer documentation.
