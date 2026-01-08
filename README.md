@@ -20,6 +20,8 @@
 
 ---
 
+## CUBASE 15 
+
 <img width="1000" height="562" alt="image" src="https://github.com/user-attachments/assets/d3114e57-8259-4b2e-b19a-0e7496a1a393" />
 
  <div align="center">
@@ -114,3 +116,10 @@ This research operates exclusively within Steinberg's official boundaries:
 - Valid Steinberg Cubase Pro license (version 13 or 14)  
 - Steinberg VST SDK (free developer registration required)  
 - Basic Lua scripting knowledge  
+
+## TAGS
+- cubase 15 research framework  
+- steinberg scripting architecture  
+- lua automation for cubase pro  
+- midi remote api documentation  
+- offline audio engineering toolkit
