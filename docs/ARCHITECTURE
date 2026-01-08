@@ -1,0 +1,47 @@
+<!-- keywords: cubase 15 architecture study, steinberg audio engine, midi processing pipeline, media bay structure -->
+# Cubase 15 System Architecture Overview
+
+A technical breakdown of Cubase 15's internal structure as observed through official scripting interfaces and public documentation.
+
+## Audio Engine Pipeline
+
+
+- **Multi-core rendering**: Each track processes on separate threads when possible  
+- **Latency compensation**: Automatic delay alignment for parallel processing chains  
+- **Sample rate conversion**: 32-bit float internal processing regardless of project rate  
+
+## MIDI Processing Flow
+
+1. Hardware input → MIDI Remote surface mapping  
+2. Event filtering (through Input Transformer)  
+3. Routing to target track or VST instrument  
+4. Real-time visualization in Key Editor  
+5. Recording to project timeline  
+
+## Project File Structure (.cpr)
+
+Cubase project files are **binary containers** with the following logical sections:
+- **Media Pool**: References to all audio/MIDI clips  
+- **Track List**: Hierarchical arrangement of channels  
+- **Automation Lanes**: Per-parameter envelope data  
+- **Plugin States**: Serialized VST configurations  
+- **Metadata**: Tempo map, markers, comments  
+
+## MediaBay Database
+
+- Stores indexed metadata for all media files  
+- Uses SQLite backend (`mediabay.db`)  
+- Supports custom tagging and rating systems  
+- Searchable via `MediaBay.find()` API (limited exposure)  
+
+## Security Boundaries
+
+Cubase enforces strict sandboxing:
+- Scripts cannot access file system outside project directory  
+- No network communication permitted from Lua context  
+- VST plugins run in isolated processes (on Windows)  
+
+> This analysis is derived solely from observable behavior and Steinberg's public documentation. No reverse engineering was performed.
+
+---
+*Architectural Research — January 2026*
